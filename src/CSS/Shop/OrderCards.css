@@ -1,0 +1,197 @@
+.Order-card
+{
+  width: 500px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  margin-bottom: 1rem ;
+}
+
+.order-pet h2
+{
+  font-size: 1rem;
+}
+
+.order-chat
+{
+  display: flex;
+  justify-content: space-between;
+  border-top: solid #7B61FF 2px;
+}
+
+.order-chat h2
+{
+  font-size: 1rem;
+}
+
+.order-details
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-pet
+{
+  display: flex;
+}
+
+.order-status
+{
+  display: flex;
+}
+
+.order-status h1
+{
+  font-size: .8rem;
+  color: #7B61FF;
+}
+
+.order-status .pending
+{
+  color: #E3A753;
+}
+
+.custm-details
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custm-details h1
+{
+  font-size: 1.2rem;
+  color: #7B61FF;
+}
+
+.order-chat button
+{
+  background-color: #7B61FF;
+  border: none;
+  border-radius: 40px;
+  margin: 1.8rem 0;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px)
+{
+    .order-details
+    {
+        font-size: .8rem;
+    }
+
+    .order-status
+    {
+        font-size: .5rem;
+    }
+
+    .custm-details 
+    {
+        font-size: .6rem;
+    }
+    .order-chat
+    {
+        font-size: .8rem;
+    }
+
+    .order-chat button
+    {
+        margin: 35px 0;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+
+    .Order-card
+    {
+      width: 280px;
+      height: 150px;
+    }
+
+    .order-details h2
+    {
+        font-size: .7rem;
+    }
+
+    .order-status h1
+    {
+        font-size: .5rem;
+    }
+
+    .custm-details h1
+    {
+        font-size: .8rem;
+    }
+    .order-chat h2
+    {
+        font-size: .7rem;
+    }
+
+    .order-chat button
+    {
+        font-size: .5rem;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+  .Order-card
+  {
+    width: 230px;
+  }
+
+  .order-details h2
+    {
+        font-size: .6rem;
+    }
+
+    .order-status h1
+    {
+        font-size: .4rem;
+    }
+
+    .custm-details h1
+    {
+        font-size: .7rem;
+    }
+    .order-chat h2
+    {
+        font-size: .6rem;
+    }
+
+  .order-chat button
+  {
+    font-size: .5rem;
+    padding: 3px 10px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 280px)
+{
+  .Order-card
+  {
+    width: 180px;
+  }
+
+  .order-chat button
+  {
+    font-size: .5rem;
+    margin: 20px 0;
+    padding: 5px 10px;
+  }
+
+  .order-chat h2
+  {
+    font-size: .6rem;
+  }
+
+
+}
+

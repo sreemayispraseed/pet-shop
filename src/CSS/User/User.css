@@ -1,0 +1,296 @@
+.User
+{
+  font-family: Ramaraja;
+}
+
+.search-pin
+{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  padding: 5px;
+  width: 18rem;
+  border: solid blue 2px;
+}
+
+.featured-title
+{
+  text-align : center;
+  color: #231248;
+  font-size: 2.5rem;
+}
+
+.shop-title
+{
+  margin-left : 10%;
+  color: #231248;
+  font-size: 2.5rem;
+}
+
+.User .edt-btn
+{
+  display: none;
+}
+
+.btns
+{
+  display: flex;
+  gap: 5px;
+}
+
+.User .dlt-btn
+{
+  display: none;
+}
+
+.edt-btn
+{
+  background-color: white;
+  font-weight: bold;
+  border: solid blueviolet;
+  cursor: pointer;
+}
+
+.edt-btn:hover
+{
+  background-color: blueviolet;
+  color: white;
+}
+
+.dlt-btn
+{
+  background-color: white;
+  font-weight: bold;
+  border: solid red;
+  cursor: pointer;
+}
+
+.dlt-btn:hover
+{
+  background-color: red;
+  color: white;
+  border: solid red;
+}
+
+.cards-pets
+{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: rgba(77, 57, 30, 0.15);
+}
+
+.cards-shops
+{
+  display: grid;
+  margin: 50px;
+  gap: 0 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.featured-pet
+{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.pet-image 
+{
+  width: 150px;
+  height: 120px;
+}
+
+.pet-image img
+{
+  width: 150px;
+  height: 120px;
+}
+
+.pet-info
+{
+  text-align: center;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.pet-name,.pet-breed,.pet-price
+{
+  margin: 5px;
+}
+
+.Am button
+{
+  color: white;
+  background-color: #231248;
+  border-radius: 40px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+}
+
+.Am button:hover
+{
+  background-color: white;
+  color: #000;
+  box-shadow: 2px 2px 3px 3px;
+}
+
+.shops-list
+{
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.shops-images
+{
+  width: 180px;
+  height: 150px;
+}
+
+.shops-images img
+{
+  width: 100%;
+  height: 150px;
+}
+
+.shopcard-info
+{
+  background: rgba(77, 57, 30, 0.15);
+  padding: 10px 20px;
+}
+
+.shops-name,.shops-info,.shops-location
+{
+  margin: 10px 5px;
+}
+
+.shopcard-info button
+{
+  color: white;
+  background-color: #231248;
+  border-radius: 40px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 20px;
+}
+
+.shopcard-info button:hover
+{
+  background-color: white;
+  color: #000;
+  box-shadow: 2px 2px 3px 3px;
+
+}
+
+@media screen and (max-width: 1024px) 
+{
+  .shops-images 
+  {
+    width: 50%;
+  }
+
+  .cards-shops
+  {
+    gap: 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 768px) 
+{
+
+  .shopcard-info
+  {
+    font-size: .9rem;
+    padding: 10px;
+  }
+
+  .search-pin
+  {
+    top: .6rem;
+    width: 12rem;
+  }
+  
+  .pet-info
+  {
+    font-size: .8rem;
+  }
+
+  .cards-shops
+  {
+    gap: 0 ;
+    margin: 0;
+  }
+
+  .pet-image
+  {
+    width: 65%;
+  }
+
+  .Am button
+  {
+    font-size: .5rem;
+  }
+
+  .User .m
+  {
+    display: none;
+  }
+
+  .User .z
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) 
+{
+  .cards-pets
+  {
+    flex-direction: column;
+  }
+  .cards-shops
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-pin
+  {
+    font-size: 10px;
+    width: 8rem;
+    padding: 1px;
+    top: .4rem;
+    right: .8rem;
+  }
+
+  .pet-image
+  {
+    width: 65%;
+  }
+
+  .shops-list
+  {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 280px) 
+{
+  .btns
+  {
+    flex-direction: column;
+  }
+
+  .search-pin
+  {
+    width: 5rem;
+  }
+}

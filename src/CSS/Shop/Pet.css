@@ -1,0 +1,199 @@
+.pets-details
+{
+  font-family: Ramaraja;
+}
+
+.pet
+{
+  padding: 4% 6%;
+}
+
+.pet .pets-info
+{
+  display: flex;
+}
+
+.pet-header
+{
+  color:#231248;
+  margin: 10px 80px;
+  font-size: 2rem;
+}
+
+.Catagory
+{
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catagory
+{
+  padding: 5px 10px;
+  background-color: #C4C4C4;
+  border-radius: 40px;
+}
+
+.Catagory h4
+{
+  padding: 5px 15px;
+  margin: 0 10px;
+  border: 1px solid #231248;
+  border-radius: 40px;
+}
+
+.About-me h1
+{
+  width: 80%;
+  padding: 10px 0;
+  border-bottom: solid black 2px;
+}
+
+.About-me h6
+{
+  margin: 10px 0;
+  padding-right: 5%;
+  font-size: 1.7rem;
+}
+
+.pet button
+{
+  background-color:#6167FF;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 25px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+  border: none;
+  margin-left: 75%;
+  padding: 20px 55px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+  .About-me
+  {
+    font-size: .9rem;
+  }
+
+  .pet-header
+  {
+    font-size: 1.5rem;
+  }
+
+  .p-image img
+  {
+    margin-top: 3rem;
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .pets-details .m 
+  {
+    display: none;
+  }
+
+  .About-me
+  {
+    font-size: .8rem;
+  }
+
+  .pet-header
+  {
+    font-size: 1.2rem;
+  }
+
+  .pet button
+  {
+    padding: 1rem 1.5rem;
+    font-size: .8rem;
+  }
+
+  .p-image img
+  {
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+}
+
+@media screen and (max-width: 480px)
+{
+  .About-me
+  {
+    font-size: .4rem;
+  }
+
+  .About-me h6
+  {
+    font-size: .8rem;
+  }
+
+  .pet-header
+  {
+    margin: 20px;
+    font-size: .5rem;
+  }
+
+  .p-image img
+  {
+    margin-top: 2rem;
+    width: 10rem;
+  }
+
+  .pet button
+  {
+    padding: .6rem 1.2rem;
+    font-size: .6rem;
+  }
+
+}
+
+@media screen and (max-width: 360px)
+{
+
+  .p-image img
+  {
+    margin-top: 1.2rem;
+    width: 8rem;
+  }
+
+  .pet-header
+  {
+    margin: 10px;
+  }
+
+  .pet
+  {
+    font-size: .7rem;
+  }
+
+  .About-me
+  {
+    font-size: .3rem;
+  }
+
+  .About-me h6
+  {
+    font-size: .6rem;
+  }
+  .pet button
+  {
+    padding: .5rem 1rem;
+    font-size: .5rem;
+  }
+}
+
+@media screen and (max-width: 360px)
+{
+  .p-image img
+  {
+    margin-top: 1.2rem;
+    width: 5rem;
+  }
+}

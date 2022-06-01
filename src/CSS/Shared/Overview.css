@@ -1,0 +1,155 @@
+.Overview
+{
+  font-family: Ramaraja;
+}
+
+.logo
+{
+  font-size: 2.2rem;
+  background-color: #FFF;
+  opacity: 0.92;
+  padding: 15px 40px;
+}
+.Overview-b
+{
+  background-image: url("/src/Images/Bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Overview-b h2
+{
+  font-size: 3rem;
+  color: #231248;
+  text-align: left;
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
+
+.Button
+{
+  display: flex;
+  padding-bottom: 8rem;
+  justify-content: flex-end;
+  margin-right: 10rem;
+}
+
+.Overview-p
+{
+  display: flex;
+}
+
+.Overview-p p
+{
+  padding: 0 2rem;
+  margin-right: 10rem;
+  color: #231248;
+  font-size: 3rem;
+}
+
+.Vector1
+{
+  padding: 1.2rem;
+  margin-left: 15rem;
+}
+
+.Vector2
+{
+  padding: 1.5rem;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) 
+{
+  
+  .Button
+  {
+    margin-right: 5rem;
+  }
+
+  .Overview-p p 
+  {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) 
+{
+
+  .Overview
+  {
+    width: 100%;
+  }
+
+  .Overview-p
+  {
+    padding: 5.5rem 1rem;
+  }
+
+  .Overview-b h2
+  {
+    font-size: 1.5rem;
+  }
+
+  .Overview-p p 
+  {
+    margin-right: 5rem;
+    font-size: 2rem;
+  }
+
+  .Vector1
+  {
+    margin-left: 5rem;
+  }
+
+  .Vector2
+  {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) 
+{
+
+  .Overview-b h2
+  {
+    font-size: 1rem;
+    margin-left: 2.5rem;
+  }
+
+  .Overview-p
+  {
+    padding: 3rem 1rem;
+  }
+
+  .Overview-p p 
+  {
+    margin-right: 0;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  .Vector1
+  {
+    margin-left: 0;
+    height: 7rem;
+  }
+
+  .Vector2
+  {
+    width: .5rem;
+  }
+
+}
+
+@media screen and (max-width: 360px) 
+{
+
+  .Overview-b h2
+  {
+    font-size: .8rem;
+  }
+
+}

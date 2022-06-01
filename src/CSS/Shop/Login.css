@@ -1,0 +1,231 @@
+
+.login-page
+{
+  font-family: Ramaraja;
+  margin: 4rem 20rem;
+  padding: 2rem;
+  text-align: center;
+  background: #FCFCFC;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.error-t
+{
+  display: none;
+}
+
+.error
+{
+  color: red;
+  font-weight: bold;
+}
+
+.login-page h2
+{
+  color: #231248;
+  font-size: 2rem;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.login-form label
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 3rem;
+  padding: .5rem;
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
+.login-form img
+{
+  width: 2.5rem;
+  padding: 0 10px;
+}
+
+.login-form input
+{
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.forget-password
+{
+  display: flex;
+  justify-content: center;
+}
+
+.create-account
+{
+  display: flex;
+  justify-content: center;
+}
+
+.forget-password button
+{
+  background-color:#7B61FF;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.click-here
+{
+  padding: 0 10px;
+  cursor: pointer;
+  color: #6167FF;
+}
+
+
+@media screen and (max-width: 1280px) 
+{
+  .login-page
+  {
+    margin: 5rem 18rem;
+  }
+
+  .login-form label
+  {
+    margin: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) 
+{
+  .login-page
+  {
+    margin: 5rem 15rem;
+  }
+
+  .login-form label
+  {
+    margin: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .login-page
+  {
+    margin: 8rem;
+  }
+  .Login .m
+  {
+    display: none;
+  }
+  .Login .z
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) 
+{
+
+
+  .login-page
+  {
+    margin: 5rem 3rem;
+    padding: 0;
+  }
+
+  .forget-password
+  {
+    font-size: .5rem;
+  }
+
+  .forget-password button
+  {
+    padding: 0 1rem;
+    margin: 0;
+    font-size: 0.5rem;
+  }
+
+  .create-account 
+  {
+    font-size: .6rem;
+  }
+
+   .login-form label
+  {
+    margin: 1rem;
+    padding: 5px;
+  }
+
+  .login-form input
+  {
+    padding: 0;
+  }
+
+  .login-form img
+  {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) 
+{
+  .login-form label
+  {
+    padding: 0 0.5rem;
+    margin: .5rem;
+  }
+
+  .login-form input
+  {
+    padding: 2px;
+    margin: 5px;
+  }
+
+  .login-form img
+  {
+    width: 1rem;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 280px) 
+{
+
+  .login-page
+  {
+    margin: 3rem 2rem;
+  }
+
+  .login-form label
+  {
+    padding: 0 0.5rem;
+    margin: .5rem;
+  }
+
+  .login-form input
+  {
+    font-size: .8rem;
+    padding: 5px;
+    margin: 2px;
+  }
+
+  .login-form img
+  {
+    width: 1rem;
+    padding: 0;
+  }
+
+  .forget-password
+  {
+    font-size: .4rem;
+  }
+
+}

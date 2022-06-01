@@ -1,0 +1,36 @@
+.OTP
+{
+    position: absolute;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 12px;
+    padding: 25px 50px;
+    backdrop-filter: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .OTP
+    {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+    .OTP
+    {
+        padding: 35px 20px;
+    }
+}
+
+@media screen and (max-width: 280px)
+{
+    .OTP
+    {
+        padding: 35px 15px;
+    }
+}
+
+

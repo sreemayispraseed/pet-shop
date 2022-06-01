@@ -1,0 +1,87 @@
+.Header
+{
+  font-family: Ramaraja;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px;
+  background-color: #FFF;
+  color: #231248;
+}
+
+.MenuOpen,.MenuClose
+{
+  display: none;
+}
+
+
+.m{
+  display: none;
+}
+
+.Header h1
+{
+  font-size: 2rem;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.Header img
+{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) 
+{
+  .MenuOpen,.MenuClose
+  {
+    display: inline;
+  }
+
+  .m
+  {
+    background-image: url('../../Images/menu.png');
+    background-size: cover;
+    display: block;
+    width: 50px;
+  }
+
+  .z
+  {
+    background-image: url('../../Images/close.png');
+    background-position: center;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin: 0 2px;
+    width: 30px;
+  }
+
+  .Header h1
+  {
+    margin: 5px 50px;
+    font-size: 2rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 480px) 
+{
+  .m
+  {
+    width: 20px;
+  }
+
+  .z
+  {
+    margin: 2px;
+    width: 15px;
+  }
+
+  .Header h1
+  {
+    font-size: 1rem;
+  }
+}

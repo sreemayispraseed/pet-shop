@@ -1,0 +1,98 @@
+.MenuOpen
+{
+    position: absolute;
+    z-index: 1;
+    transition: transform 0.2s ease-in-out;
+    transform: translate(-100%);
+    background-color: #231248;
+    top: 47px;
+    width: 200px;
+    height: calc(100% - 47px) ;
+}
+
+.MenuClose
+{
+    position: absolute;
+    transition: transform 0.2s ease-in-out;;
+    transform: translate(-1%);
+    background-color: #231248;
+    top: 47px;
+    width: 200px;
+    height: calc(100% - 47px) ;
+}
+
+.menu-details
+{
+  color: white;
+  text-align: center;
+}
+
+.menu-details img
+{
+    display: block;
+}
+
+.menu-pic
+{
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+
+.menu-options
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.menu-options button
+{
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: .8rem;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 480px)
+{
+    .MenuOpen
+    {
+        top: 30px;
+        width: 150px;
+    }
+
+    .MenuClose
+    {
+        top: 30px;
+        width: 150px;
+
+    }
+
+    .menu-pic
+    {
+        width: 130px;
+        height: 130px;
+    }
+
+    .menu-details
+    {
+        font-size: .8rem;
+    }
+
+    .menu-options button
+    {
+        font-size: .6rem;
+    }
+}
+
+
+

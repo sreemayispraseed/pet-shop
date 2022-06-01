@@ -1,0 +1,94 @@
+.verify-order
+{
+    position: absolute;
+    left: -35%;
+    top: -10%;
+    width: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.order-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-container h1
+{
+    margin-left: 7rem;
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.order-dtls
+{
+    text-align: center;
+}
+
+.order-dtls button
+{
+    background-color: blueviolet;
+    color: white;
+    border:none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-dtls button:hover
+{
+    background-color: rgb(8, 187, 8);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .verify-order
+    {
+        width: 300px;
+        left: -12%;
+        top: -10%;
+    }
+
+    .order-container h1
+    {
+        margin-left: 3rem;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+    .verify-order
+    {
+        width: 250px;
+        left: -7%;
+        top: -13%;
+    }
+
+    .order-container h1
+    {
+        margin-left: 2rem;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 280px)
+{
+    .verify-order
+    {
+        width: 210px;
+        left: -2%;
+        top: -13%;
+    }
+
+    .order-container h1
+    {
+        margin-left: 1rem;
+    }
+}

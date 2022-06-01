@@ -1,0 +1,67 @@
+.popUpPet-open
+{
+    width: 100%;
+    height: 80ch;
+    top: 7ch;
+    left: 0;
+    position: absolute;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popuppet-details
+{
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .popUpPet-open
+    {
+        height: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 768px)
+{
+    .popUpPet-open
+    {
+        top: 5ch;
+    }
+
+}
+
+@media screen and (max-width: 480px)
+{
+    .popUpPet-open
+    {
+        top: 3ch;
+        height: calc(100% - 55px);
+    }
+
+    .popuppet-details
+    {
+        width: 250px;
+        height: 230px;
+    }
+
+}
+
+@media screen and (max-width: 280px)
+{
+
+    .popuppet-details
+    {
+        width: 200px;
+        height: 230px;
+    }
+
+}

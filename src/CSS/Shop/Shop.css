@@ -1,0 +1,171 @@
+.Shop
+{
+    text-align: center;
+    background-image: linear-gradient(white 20% , lightblue );
+}
+
+.Shop .edt-btn
+{
+  display: none;
+}
+
+.Shop .dlt-btn
+{
+  display: none;
+}
+
+.heading
+{
+    font-size: 3rem;
+}
+
+.shop-dtls
+{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.shop-dtls img
+{
+    width: 180px;
+}
+
+.contact-details
+{
+    margin: 2rem 6rem;
+}
+
+.search-pet
+{
+    border: solid blue 2px;
+    width: 25rem;
+    padding: 10px;
+}
+
+.contact-details h3
+{
+    color:blueviolet ;
+}
+
+.shop-pets
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 0 50px;
+}
+
+.catagories-animals ul
+{
+    display: flex;
+    justify-content:flex-start ;
+    list-style: none;
+}
+
+.catagories-animals li
+{
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .shop-pets
+    {
+        gap: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) 
+{
+    .Shop .m
+    {
+      display: none;
+    }
+  
+    .Shop .z
+    {
+      display: none;
+    }
+
+    .shop-pets
+    {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    .contact-details
+    {
+        margin: 1rem;
+        font-size: .5rem;
+    }
+
+    .heading
+    {
+        font-size: 2rem;
+    }
+
+    .shop-dtls
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .search-pet
+    {
+        width: 15rem;
+    }
+
+    .shop-dtls img
+    {
+        width: 100px;
+    }
+
+    .shop-pets
+    {
+        margin: 0 70px;
+        grid-template-columns: 1fr;
+    }
+
+    .catagories-animals li
+    {
+        margin: 0 8px;
+    }
+
+}
+
+@media screen and (max-width: 360px) 
+{
+    
+
+    .shop-pets
+    {
+        margin: 0 45px;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+@media screen and (max-width: 280px) 
+{
+    .contact-details
+    {
+        margin: .3rem;
+        font-size: .5rem;
+    }
+
+    .search-pet
+    {
+        width: 10rem;
+    }
+
+    .shop-dtls img
+    {
+        width: 80px;
+    }
+}

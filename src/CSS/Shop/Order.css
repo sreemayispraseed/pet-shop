@@ -1,0 +1,81 @@
+.orders
+{
+  display: flex;
+}
+
+.order-h
+{
+  width: 40rem;
+  color: #231248;
+  margin: 2rem;
+  border-bottom: solid black 3px;
+}
+
+ .orders-card
+{
+  margin-left: 5rem;
+  height: 500px;
+  padding: 50px 0;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px)
+{
+  .orders-card
+  {
+    margin: 0 80px;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+  .order-h
+  {
+    width: 15rem;
+  }
+
+  .orders-card
+  {
+    margin: 1rem 1.5rem;
+    width: 300px;
+    padding: 5px;
+  }
+
+}
+
+@media screen and (max-width: 360px)
+{
+  .order-h
+  {
+    width: 12rem;
+  }
+
+  .orders-card
+  {
+    margin: 1rem;
+    width: 250px;
+    padding: 5px;
+  }
+
+}
+
+@media screen and (max-width: 280px)
+{
+  .order-h
+  {
+    width: 12rem;
+  }
+
+  .orders-card
+  {
+    margin: 1rem;
+    width: 200px;
+    padding: 5px;
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,117 @@
+.mypets
+{
+  display: flex;
+}
+
+.mypets-h
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.mypets-h h1
+{
+  width: 70%;
+  color: #231248;
+  padding: 10px 0;
+  border-bottom: solid black 3px;
+}
+
+.mypets-h button
+{
+  border: none;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 1.5rem;
+  color: white;
+  margin: 2.2rem 0;
+  background-color: #7B61FF;
+}
+
+.mypets-card
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 50px;
+  overflow: auto;
+  gap: 0 40px;
+  background-color: lightgray;
+}
+
+.Mypets .Am button
+{
+  display: none;
+}
+
+@media screen and (max-width: 1280px)
+{
+  .mypets-card
+  {
+    margin: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 1024px)
+{
+  .mypets-card
+  {
+    margin: 0 5rem;
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .mypets-h 
+  {
+    font-size: .8rem;
+  }
+
+  .mypets-h button
+  {
+    margin: 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 480px)
+{
+
+  .mypets-card
+  {
+    margin: 1rem 1.5rem;
+    grid-template-columns: 1fr  ;
+
+  }
+
+  .mypets-h 
+  {
+    font-size: .6rem;
+  }
+
+  .mypets-h button
+  {
+    font-size: .6rem;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 360px)
+{
+  .mypets-card
+  {
+    margin: 1rem 0.1rem;
+  }
+}
+
+@media screen and (max-width: 280px)
+{
+  .mypets-card
+  {
+    margin: 0.3rem;
+  }
+}
+

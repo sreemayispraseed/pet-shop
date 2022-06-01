@@ -1,0 +1,177 @@
+.add-pets
+{
+  font-family: Ramaraja;
+  height: 500px;
+  margin: 2% 20%;
+  text-align: center;
+  background: #FCFCFC;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add-details
+{
+  display: flex;
+  justify-content: center;
+}
+
+.add-form label
+{
+  display: flex;
+  margin: 10px 80px;
+  padding: 0 20px;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
+.add-form input
+{
+  outline: none;
+  background:#FCFCFC;
+  font-weight: bold;
+  border: none;
+  padding: 5px 0;
+  padding-right: 80px;
+  border: none;
+  margin: 5px 0;
+}
+
+.add-form button
+{
+  background-color:#7B61FF;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border: none;
+  color: #FFF;
+  margin-left: 42%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 35px;
+}
+
+.add-img
+{
+  height: 100px;
+}
+
+.image-u
+{
+  height: 100px;
+  border: solid black 2px;
+}
+
+.add-img button
+{
+  color: white;
+  font-weight: bold;
+  padding: 5px 0;
+  border: none;
+  cursor: pointer;
+  background: #7B61FF;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+  .add-pets
+  {
+    margin: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .add-pets
+  {
+    margin: 3rem ;
+    height: 420px;
+  }
+
+  .add-img
+  {
+    width: 120px;
+  }
+
+}
+
+@media screen and (max-width: 480px)
+{
+
+  .add-details
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-pets
+  {
+    margin: 5rem 2rem;
+    padding: 50px 0;
+  }
+
+  .add-form label
+  {
+    margin: 0.5rem 2rem;
+  }
+
+  .add-form input
+  {
+    padding: 0;
+  }
+
+  .add-img
+  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 17rem;
+    height: 20px;
+    padding: 10px;
+  }
+
+  .add-img button
+  {
+    font-size: .4rem;
+    padding: 0 10px;
+  }
+
+  .image-u
+  {
+    width: 9rem;
+    height: 20px;
+    margin: 0 30px;
+  }
+
+}
+
+@media screen and (max-width: 360px)
+{
+
+  .add-form label
+  {
+    margin: 0.5rem 1rem;
+  }
+
+  .add-img
+  {
+    width: 14rem;
+  }
+
+}
+
+@media screen and (max-width: 280px)
+{
+
+  .add-pets
+  {
+    margin: 50px 10px;
+  }
+
+  .add-img
+  {
+    width: 220px;
+  }
+
+  
+
+}
